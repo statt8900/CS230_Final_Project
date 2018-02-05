@@ -1,0 +1,421 @@
+  
+ ******************** TIME CONTROL ********************
+ Starting Chargemol version 3.5 September 26, 2017.
+ ******************************************************
+  
+ Starting DDEC program
+ 2018/01/30  11:10:13
+ Copyright (c) 2014, 2015, 2016 by Thomas A. Manz and Nidia Gabaldon Limas. Rights reserved.
+  
+ **************** THREAD INFORMATION ******************
+ Job running using OpenMP.
+ The number of parallel threads is:            1
+  
+ ******************************************************
+  
+ /home/ksb/chargemol/atomic_densities/                                                                                                                                                                   
+  
+ ******************** TIME CONTROL ********************
+ Starting format_total_cube_density
+ ******************************************************
+  
+ inputfile = "total_density.cube"
+ parameters
+   3.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+   48.000000000000000       0.13353799999999999        0.0000000000000000        0.0000000000000000     
+   48.000000000000000        0.0000000000000000       0.13353799999999999        0.0000000000000000     
+   48.000000000000000        0.0000000000000000        0.0000000000000000       0.13353799999999999     
+ sum_negative_density=    0.0000000000000000     
+ center_nabc =
+           0           0           0
+          24          24          24
+          36           0          24
+ delta_na=     72
+ delta_nb=     72
+ delta_nc=     72
+  
+ ******************** TIME CONTROL ********************
+ Starting check_grid_spacing
+ ******************************************************
+  
+ The grid spacing in your electron density input file is adequate.
+  
+ ******************** TIME CONTROL ********************
+ Finished check_grid_spacing in   0.17100000381469727      seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Finished format_total_cube_density in   0.22300000488758087      seconds
+ ******************************************************
+  
+ ncore =        0.0000
+ nvalence =        7.0000
+ pixelvolume =    2.3813E-03
+ numerically integrated valence density =    7.0000E+00
+ sum_valence_occupancy_correction =    0.0000E+00
+ checkme =    4.3839E-05
+ The grid spacing is adequate and all electrons are properly accounted for.
+ Calculation will proceed.
+ Making sure the atomic coordinates for periodic directions are inside the reference unit cell.
+ The adjusted atomic coordinates are
+    0.0000    0.0000    0.0000
+    3.2049    3.2049    3.2049
+    4.8075    0.0000    3.2050
+  
+ The adjusted center_nabc is
+           0           0           0
+          24          24          24
+          36           0          24
+  
+ ******************** TIME CONTROL ********************
+ Starting core_iterator
+ ******************************************************
+  
+ Iteratively solving for the core charge distributions:
+ Iteration=   1
+ change=   0.000000E+00
+ Iteration=   2
+ change=   0.000000E+00
+ Iteration=   3
+ change=   0.000000E+00
+ Iteration=   4
+ change=   0.000000E+00
+ Iteration=   5
+ change=   0.000000E+00
+ Iteration=   6
+ change=   0.000000E+00
+ Correcting the core density grid
+ iteration=            1
+ Core density grid corrected in the following number of iterations: 
+ iter=            1
+  
+ ******************** TIME CONTROL ********************
+ Finished core_iterator in   0.18199999630451202      seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Starting valence_iterator
+ ******************************************************
+  
+ Iteratively solving for the atomic partial charge distributions:
+ Normalization =   1.0000062628045494     
+ Information for noniterative Hirshfeld method will be printed now.
+  
+ ******************** TIME CONTROL ********************
+ Starting local_multipole_moment_analysis
+ ******************************************************
+  
+ Multipole analysis for each of the expansion sites.
+ XYZ coordinates, net charges, and multipoles are in atomic units. Dipoles and quadrupoles are for valence electrons.
+ center number, atomic number, x, y, z, net_charge, dipole_x, dipole_y, dipole_z, dipole_mag, Qxy, Qxz, Qyz, Q(x^2-y^2), Q(3z^2 - R^2),three eigenvalues of traceless quadrupole moment tensor
+     1     3  0.000000  0.000000  0.000000  0.055842 -0.088442 -0.000000 -0.000000  0.088442 -0.000000 -0.000017  0.000000  0.085999  0.202688 -0.076781  0.009218  0.067563
+     2     3  3.204919  3.204919  3.204919  0.055845  0.088462  0.000021  0.000024  0.088462 -0.000001 -0.000016 -0.000000 -0.058414 -0.230347 -0.076782  0.009184  0.067598
+     3     1  4.807463  0.000000  3.204976 -0.111688  0.000030  0.000000  0.000014  0.000033 -0.000000  0.000022 -0.000000 -0.011932  0.011953 -0.007958  0.003974  0.003984
+  
+ ******************** TIME CONTROL ********************
+ Finished local_multipole_moment_analysis in   0.30599999427795410      seconds
+ ******************************************************
+  
+ Information for noniterative CM5 method will be printed now.
+ The computed CM5 net atomic charges are:
+     0.049757     0.049761    -0.099518
+ Hirshfeld and CM5 analysis finished, calculation of iterative AIM will proceed.
+ iter =            1
+ Localized charges for the current iteration: 
+      0.169773      0.169774     -0.339548
+ Net atomic charges for the current iteration: 
+      0.055842      0.055845     -0.111688
+ The updated reference ion charges will be: 
+      0.131796      0.131798     -0.263594
+ Normalization =   1.0000062628045012     
+ iter =            2
+ Localized charges for the current iteration: 
+      0.251185      0.251183     -0.502368
+ Net atomic charges for the current iteration: 
+      0.151777      0.151780     -0.303557
+ The updated reference ion charges will be: 
+      0.218049      0.218049     -0.436098
+  
+ ******************************************************
+ Finished first 2 partitioning steps in    2.2799999713897705      seconds
+ ******************************************************
+  
+ normalization=       1.000006
+  
+ ******************************************************
+ Finished conditioned number of reference ion electrons in   0.37500000000000000      seconds
+ ******************************************************
+  
+  
+ ******************************************************
+ Finished conditioned monotonic decay of reference density in    0.0000000000000000      seconds
+ ******************************************************
+  
+ iter = 3
+ Iterations to converge reshaping: 
+           1
+  
+ ******************************************************
+ Finished tau calculation in   0.40700000524520874      seconds
+ ******************************************************
+  
+ Conditioned reference density computation complete.
+  
+ ******************************************************
+ Finished 3rd partitioning step in   0.78200000524520874      seconds
+ This is the number of second to condition the reference densities plus the calculation of tau
+ ******************************************************
+  
+ iteration=            4
+ Normalization:   1.000006263
+ Net atomic charges for the current iteration: 
+      0.193682      0.193685     -0.387367
+ Max change:  8.380966E-02
+ Maximum density change:  1.080324E+01
+ Iterations to converge reshaping: 
+           2
+ iteration=            5
+ Normalization:   1.000006263
+ Net atomic charges for the current iteration: 
+      0.258307      0.258314     -0.516621
+ Max change:  1.292544E-01
+ Maximum density change:  4.576584E-03
+ Iterations to converge reshaping: 
+           1
+ iteration=            6
+ Normalization:   1.000006263
+ Net atomic charges for the current iteration: 
+      0.270548      0.270558     -0.541106
+ Max change:  2.448500E-02
+ Maximum density change:  2.846895E-04
+ Iterations to converge reshaping: 
+           1
+ iteration=            7
+ Normalization:   1.000006263
+ Net atomic charges for the current iteration: 
+      0.280897      0.280910     -0.561807
+ Max change:  2.070100E-02
+ Maximum density change:  1.218546E-04
+  
+ ******************************************************
+ Finished charge partitioning steps 4-7 in    1.5659999847412109      seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Finished valence_iterator in    4.6279997825622559      seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Starting local_multipole_moment_analysis
+ ******************************************************
+  
+ Multipole analysis for each of the expansion sites.
+ XYZ coordinates, net charges, and multipoles are in atomic units. Dipoles and quadrupoles are for valence electrons.
+ center number, atomic number, x, y, z, net_charge, dipole_x, dipole_y, dipole_z, dipole_mag, Qxy, Qxz, Qyz, Q(x^2-y^2), Q(3z^2 - R^2),three eigenvalues of traceless quadrupole moment tensor
+     1     3  0.000000  0.000000  0.000000  0.280897 -0.236970 -0.000000 -0.000007  0.236970 -0.000000 -0.000034  0.000000  0.353669  1.231374 -0.382064 -0.028395  0.410458
+     2     3  3.204919  3.204919  3.204919  0.280910  0.236985  0.000019  0.000039  0.236985 -0.000002 -0.000030 -0.000000 -0.438847 -1.146300 -0.382100 -0.028374  0.410474
+     3     1  4.807463  0.000000  3.204976 -0.561807  0.000008  0.000000 -0.000005  0.000010 -0.000000  0.000099 -0.000000 -0.155873  0.155990 -0.103935  0.051938  0.051997
+  
+ ******************** TIME CONTROL ********************
+ Finished local_multipole_moment_analysis in   0.30599999427795410      seconds
+ ******************************************************
+  
+ Since the system is periodic, total multipole moment analysis will not be performed.
+ Calculation of the electron cloud penetration terms
+  
+ ******************** TIME CONTROL ********************
+ Starting perform_BO_analysis
+ ******************************************************
+  
+ Starting Effective Bond Order (BO) Analysis
+  
+ ******************** TIME CONTROL ********************
+ Starting prepare_BO_density_grids
+ ******************************************************
+  
+ Preparing density grids for bond order analysis ...
+ Total density grid corrected in the following number of iterations:     2
+ The total integrated number of electrons is        7.000000
+ Grid preparation complete.
+  
+ ******************** TIME CONTROL ********************
+ Finished prepare_BO_density_grids in   0.38299998641014099      seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Starting compute_local_atomic_exchange_vectors
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Finished compute_local_atomic_exchange_vectors in   0.35100001096725464      seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Starting initialize_bond_pair_matrix
+ ******************************************************
+  
+ Initializing the bond pair matrix ...
+ The total number of symmetry unique atom pairs to include in the bond pair matrix is
+ num_sym_unique_bond_pairs:     45
+ The bond pair matrix has been initialized.
+  
+ ******************** TIME CONTROL ********************
+ Finished initialize_bond_pair_matrix in    7.9999998211860657E-002 seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Starting compute_summed_contact_exchange
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Finished compute_summed_contact_exchange in   0.21600000560283661      seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Starting integrate_bonding_terms
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Finished integrate_bonding_terms in    4.0390000343322754      seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Starting calculate_final_BOs
+ ******************************************************
+  
+ Checking for consistency in the summed contact exchange
+ The maximum error in the summed contact exchange is     0.004828
+  
+ The sum of contact exchanges for each atom are:
+    0.916588
+    0.916563
+    0.975590
+  
+ The sum of BOs for each atom are:
+    1.081435
+    1.081397
+    1.178970
+  
+ The final bond pair matrix is
+     1     1    0.000000    0.000000    1.000000  -70.000000   70.000000  -70.000000   70.000000  -24.000000   72.000000    0.008320    0.008320    0.005944    0.000229    0.684871    0.000241    0.000165    0.008485    0.008485
+     1     1    0.000000    1.000000    0.000000  -70.000000   70.000000  -24.000000   72.000000  -70.000000   70.000000    0.025017    0.025017    0.024455    0.004279    0.684871    0.004383    0.003002    0.028019    0.028019
+     1     1    1.000000    0.000000    0.000000  -24.000000   72.000000  -70.000000   70.000000  -70.000000   70.000000    0.015901    0.015901    0.013821    0.001522    0.684871    0.001564    0.001071    0.016972    0.016972
+     1     2   -1.000000   -1.000000   -1.000000  -72.000000   48.000000  -72.000000   48.000000  -72.000000   48.000000    0.030627    0.030627    0.023461    0.004226    0.684851    0.004383    0.003002    0.033628    0.033628
+     1     2   -1.000000   -1.000000    0.000000  -72.000000   48.000000  -72.000000   48.000000  -48.000000   72.000000    0.030626    0.030626    0.023462    0.004226    0.684851    0.004383    0.003001    0.033628    0.033628
+     1     2   -1.000000    0.000000   -1.000000  -72.000000   48.000000  -48.000000   72.000000  -72.000000   48.000000    0.030627    0.030627    0.023461    0.004226    0.684851    0.004383    0.003002    0.033628    0.033628
+     1     2   -1.000000    0.000000    0.000000  -72.000000   48.000000  -48.000000   72.000000  -48.000000   72.000000    0.030626    0.030626    0.023462    0.004226    0.684851    0.004383    0.003001    0.033628    0.033628
+     1     2    0.000000   -1.000000   -1.000000  -48.000000   72.000000  -72.000000   48.000000  -72.000000   48.000000    0.058638    0.058638    0.049749    0.015238    0.684851    0.015811    0.010828    0.069466    0.069466
+     1     2    0.000000   -1.000000    0.000000  -48.000000   72.000000  -72.000000   48.000000  -48.000000   72.000000    0.058642    0.058642    0.049753    0.015240    0.684851    0.015813    0.010830    0.069471    0.069471
+     1     2    0.000000    0.000000   -1.000000  -48.000000   72.000000  -48.000000   72.000000  -72.000000   48.000000    0.058638    0.058638    0.049749    0.015238    0.684851    0.015811    0.010828    0.069466    0.069466
+     1     2    0.000000    0.000000    0.000000  -48.000000   72.000000  -48.000000   72.000000  -48.000000   72.000000    0.058642    0.058642    0.049753    0.015240    0.684851    0.015813    0.010830    0.069471    0.069471
+     1     3   -2.000000    0.000000   -1.000000  -72.000000   12.000000  -66.000000   66.000000  -72.000000   48.000000    0.000508    0.000508    0.000449    0.000001    0.761185    0.000001    0.000001    0.000509    0.000509
+     1     3   -2.000000    0.000000    0.000000  -72.000000   12.000000  -66.000000   66.000000  -48.000000   72.000000    0.000508    0.000508    0.000449    0.000001    0.761185    0.000001    0.000001    0.000509    0.000509
+     1     3   -1.000000   -1.000000   -1.000000  -72.000000   60.000000  -72.000000   24.000000  -72.000000   48.000000    0.004193    0.004193    0.004017    0.000084    0.761185    0.000087    0.000066    0.004259    0.004259
+     1     3   -1.000000   -1.000000    0.000000  -72.000000   60.000000  -72.000000   24.000000  -48.000000   72.000000    0.004193    0.004193    0.004017    0.000084    0.761185    0.000087    0.000066    0.004259    0.004259
+     1     3   -1.000000    0.000000   -1.000000  -72.000000   60.000000  -72.000000   72.000000  -72.000000   48.000000    0.186187    0.186187    0.159888    0.056515    0.761185    0.062293    0.047416    0.233604    0.233604
+     1     3   -1.000000    0.000000    0.000000  -72.000000   60.000000  -72.000000   72.000000  -48.000000   72.000000    0.186173    0.186173    0.159875    0.056508    0.761185    0.062285    0.047410    0.233583    0.233583
+     1     3   -1.000000    1.000000   -1.000000  -72.000000   60.000000  -24.000000   72.000000  -72.000000   48.000000    0.004193    0.004193    0.004017    0.000084    0.761185    0.000087    0.000066    0.004259    0.004259
+     1     3   -1.000000    1.000000    0.000000  -72.000000   60.000000  -24.000000   72.000000  -48.000000   72.000000    0.004193    0.004193    0.004017    0.000084    0.761185    0.000087    0.000066    0.004259    0.004259
+     1     3    0.000000   -1.000000   -1.000000  -36.000000   72.000000  -72.000000   24.000000  -72.000000   48.000000    0.000815    0.000815    0.000769    0.000002    0.761185    0.000002    0.000002    0.000816    0.000816
+     1     3    0.000000   -1.000000    0.000000  -36.000000   72.000000  -72.000000   24.000000  -48.000000   72.000000    0.000814    0.000814    0.000769    0.000002    0.761185    0.000002    0.000002    0.000816    0.000816
+     1     3    0.000000    0.000000   -1.000000  -36.000000   72.000000  -71.000000   71.000000  -72.000000   48.000000    0.031604    0.031604    0.029673    0.003744    0.761185    0.003911    0.002977    0.034581    0.034581
+     1     3    0.000000    0.000000    0.000000  -36.000000   72.000000  -71.000000   71.000000  -48.000000   72.000000    0.031594    0.031594    0.029662    0.003742    0.761185    0.003908    0.002975    0.034569    0.034569
+     1     3    0.000000    1.000000   -1.000000  -36.000000   72.000000  -24.000000   72.000000  -72.000000   48.000000    0.000815    0.000815    0.000769    0.000002    0.761185    0.000002    0.000002    0.000816    0.000816
+     1     3    0.000000    1.000000    0.000000  -36.000000   72.000000  -24.000000   72.000000  -48.000000   72.000000    0.000814    0.000814    0.000769    0.000002    0.761185    0.000002    0.000002    0.000816    0.000816
+     2     2    0.000000    0.000000    1.000000  -46.000000   94.000000  -46.000000   94.000000    0.000000   96.000000    0.025018    0.025018    0.024455    0.004279    0.684832    0.004383    0.003002    0.028019    0.028019
+     2     2    0.000000    1.000000    0.000000  -46.000000   94.000000    0.000000   96.000000  -46.000000   94.000000    0.008320    0.008320    0.005943    0.000229    0.684832    0.000240    0.000165    0.008484    0.008484
+     2     2    1.000000    0.000000    0.000000    0.000000   96.000000  -46.000000   94.000000  -46.000000   94.000000    0.015900    0.015900    0.013819    0.001522    0.684832    0.001564    0.001071    0.016970    0.016970
+     2     3   -1.000000    0.000000   -1.000000  -48.000000   60.000000  -48.000000   72.000000  -48.000000   48.000000    0.000815    0.000815    0.000769    0.000002    0.761166    0.000002    0.000002    0.000816    0.000816
+     2     3   -1.000000    0.000000    0.000000  -48.000000   60.000000  -48.000000   72.000000  -47.000000   95.000000    0.031606    0.031606    0.029675    0.003744    0.761166    0.003911    0.002977    0.034583    0.034583
+     2     3   -1.000000    0.000000    1.000000  -48.000000   60.000000  -48.000000   72.000000    0.000000   96.000000    0.000815    0.000815    0.000769    0.000002    0.761166    0.000002    0.000002    0.000816    0.000816
+     2     3   -1.000000    1.000000   -1.000000  -48.000000   60.000000  -24.000000   96.000000  -48.000000   48.000000    0.000815    0.000815    0.000769    0.000002    0.761166    0.000002    0.000002    0.000816    0.000816
+     2     3   -1.000000    1.000000    0.000000  -48.000000   60.000000  -24.000000   96.000000  -47.000000   95.000000    0.031606    0.031606    0.029675    0.003744    0.761166    0.003911    0.002977    0.034583    0.034583
+     2     3   -1.000000    1.000000    1.000000  -48.000000   60.000000  -24.000000   96.000000    0.000000   96.000000    0.000815    0.000815    0.000769    0.000002    0.761166    0.000002    0.000002    0.000816    0.000816
+     2     3    0.000000    0.000000   -1.000000  -36.000000   96.000000  -48.000000   72.000000  -48.000000   48.000000    0.004193    0.004193    0.004017    0.000084    0.761166    0.000087    0.000066    0.004259    0.004259
+     2     3    0.000000    0.000000    0.000000  -36.000000   96.000000  -48.000000   72.000000  -48.000000   96.000000    0.186164    0.186164    0.159866    0.056505    0.761166    0.062281    0.047406    0.233570    0.233570
+     2     3    0.000000    0.000000    1.000000  -36.000000   96.000000  -48.000000   72.000000    0.000000   96.000000    0.004192    0.004192    0.004015    0.000084    0.761166    0.000087    0.000066    0.004258    0.004258
+     2     3    0.000000    1.000000   -1.000000  -36.000000   96.000000  -24.000000   96.000000  -48.000000   48.000000    0.004193    0.004193    0.004017    0.000084    0.761166    0.000087    0.000066    0.004259    0.004259
+     2     3    0.000000    1.000000    0.000000  -36.000000   96.000000  -24.000000   96.000000  -48.000000   96.000000    0.186164    0.186164    0.159866    0.056505    0.761166    0.062281    0.047406    0.233570    0.233570
+     2     3    0.000000    1.000000    1.000000  -36.000000   96.000000  -24.000000   96.000000    0.000000   96.000000    0.004192    0.004192    0.004015    0.000084    0.761166    0.000087    0.000066    0.004258    0.004258
+     2     3    1.000000    0.000000    0.000000   12.000000   96.000000  -48.000000   72.000000  -42.000000   90.000000    0.000508    0.000508    0.000449    0.000001    0.761166    0.000001    0.000001    0.000509    0.000509
+     2     3    1.000000    1.000000    0.000000   12.000000   96.000000  -24.000000   96.000000  -42.000000   90.000000    0.000508    0.000508    0.000449    0.000001    0.761166    0.000001    0.000001    0.000509    0.000509
+     3     3    0.000000    0.000000    1.000000  -34.000000  106.000000  -70.000000   70.000000    0.000000   96.000000    0.008906    0.008906    0.007855    0.000183    0.833103    0.000196    0.000163    0.009069    0.009069
+     3     3    0.000000    1.000000    0.000000  -34.000000  106.000000  -24.000000   72.000000  -46.000000   94.000000    0.008907    0.008907    0.007857    0.000183    0.833103    0.000196    0.000163    0.009070    0.009070
+     3     3    1.000000    0.000000    0.000000   12.000000  108.000000  -70.000000   70.000000  -46.000000   94.000000    0.010973    0.010973    0.011112    0.000363    0.833103    0.000383    0.000319    0.011292    0.011292
+ The legend for the bond pair matrix follows:
+ Columns 1 and 2 = atom numbers
+ Columns 3 to 5 = repeata, repeatb, repeatc (i.e., periodic translation of second atom)
+ Columns 6 to 11 = corners of the shared parallepiped: min na, max na, min nb, max nb, min nc, max nc
+ Columns 12 =  contact exchange
+ Columns 13 =  a term for computing average spin polarization of bonding
+ Columns 14 =  overlap population
+ Columns 15 =  the integrated second order atomic exchange propensities for computing bond order
+ Columns 16 =  the coordination term constructed from tanh function
+ Columns 17 =  the pairwise term
+ Columns 18 =  expansion term combining coordination and pairwise terms
+ Columns 19 =  bond index before imposing the atom self-exchange constraint
+ Columns 20 =  final bond order
+ 
+ The atom self-exchange constraint affected (by at least 0.1_dp*BO_print_cutoff)      0 bond orders.
+ 
+  
+ ******************** TIME CONTROL ********************
+ Finished calculate_final_BOs in    3.0000000260770321E-003 seconds
+ ******************************************************
+  
+ Bond order analysis complete.
+  
+ ******************** TIME CONTROL ********************
+ Finished perform_BO_analysis in    5.0739998817443848      seconds
+ ******************************************************
+  
+ The computed Rsquared moments of the atoms (in bohr^2) are: 
+     6.687148     6.687029     6.503345
+ The computed Rcubed moments of the atoms (in bohr^3) are: 
+    19.965214    19.964812    20.113332
+ The computed Rfourth moments of the atoms (in bohr^4) are: 
+    70.691381    70.689906    74.279073
+ Normal termination of Chargemol program.
+ Copyright (c) 2014, 2015, 2016, 2017 by Thomas A. Manz and Nidia Gabaldon Limas. Rights reserved.
+ Use and distribution of this program is subject to certain licensing restrictions.
+ Please see ddec.sourceforge.net for details.
+  
+ Please cite the following journal references when using this program to compute DDEC6 charges:
+ N. Gabaldon Limas and T. A. Manz,  "Introducing DDEC6 atomic population analysis: part 2. 
+ Computed results for a wide range of periodic and nonperiodic materials," RSC Advances, Vol. 6 (2016) 45727-45747.
+ T. A. Manz and N. Gabaldon Limas, "Introducing DDEC6 atomic population analysis: part 1.
+ Charge partitioning theory and methodology," RSC Advances, Vol. 6 (2016) 47771-47801.
+ If desired, you can also cite references listed below for the DDEC3 and earlier methods.
+  
+ Please cite the following journal references when using this program to compute DDEC, Hirshfeld, or ISA charges:
+ Thomas A. Manz and David S. Sholl, "Improved Atoms-in-Molecule Charge Partitioning Functional for Simultaneously Reproducing the Electrostatic
+ Potential and Chemical States in Periodic and Non-Periodic Materials", J. Chem. Theory Comput., Vol. 8 (2012) 2844-2867.
+ Thomas A. Manz and David S. Sholl, "Chemically Meaningful Atomic Charges that Reproduce the Electrostatic Potential in Periodic and Nonperiodic
+ Materials", J. Chem. Theory Comput., Vol. 6 (2010) 2455-2468.
+  
+ Please cite the following journal reference when using this program to compute atomic spin moments:
+ Thomas A. Manz and David S. Sholl, "Methods for Computing Accurate Atomic Spin Moments for Collinear and Noncollinear Magnetism in Periodic and
+ Nonperiodic Materials", J. Chem. Theory Comput., Vol. 7 (2011) 4146-4164.
+  
+ Please cite the following reference when using this program to compute bond orders:
+ Thomas A. Manz, "Introducing DDEC6 atomic population analysis: part 3. Comprehensive method to compute bond orders.", RSC Advances, Vol. 7 (2017) 45552-45581.
+  
+ Exiting Chargemol
+ 2018/01/30  11:10:24
+  
+ ******************** TIME CONTROL ********************
+ Finished chargemol in    10.703000068664551      seconds
+ ******************************************************
+  

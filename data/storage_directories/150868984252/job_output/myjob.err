@@ -1,0 +1,37 @@
+aklog: Couldn't determine realm of user:aklog: unknown RPC error (-1765328189)  while getting realm
+/nfs/slac/g/suncatfs/sw/espv20/setupenv: line 2: setenv: command not found
+/nfs/slac/g/suncatfs/sw/espv20/setupenv: line 3: setenv: command not found
+/nfs/slac/g/suncatfs/sw/espv20/setupenv: line 4: setenv: command not found
+/nfs/slac/g/suncatfs/sw/espv20/setupenv: line 6: setenv: command not found
+/nfs/slac/g/suncatfs/sw/espv20/setupenv: line 7: setenv: command not found
+/nfs/slac/g/suncatfs/sw/espv20/setupenv: line 8: setenv: command not found
+/nfs/slac/g/suncatfs/sw/espv20/setupenv: line 9: setenv: command not found
+/nfs/slac/g/suncatfs/sw/espv20/setupenv: line 11: setenv: command not found
+/nfs/slac/g/suncatfs/sw/espv20/setupenv: line 12: setenv: command not found
+/nfs/slac/g/suncatfs/sw/espv20/setupenv: line 14: setenv: command not found
+/nfs/slac/g/suncatfs/sw/espv20/setupenv: line 15: setenv: command not found
+/nfs/slac/g/suncatfs/sw/espv20/setupenv: line 16: setenv: command not found
+/nfs/slac/g/suncatfs/sw/espv20/setupenv: line 17: setenv: command not found
+/nfs/slac/g/suncatfs/sw/espv20/setupenv: line 19: unsetenv: command not found
+/nfs/farm/lsb_spool/1508584422.752955.shell: line 7: setenv: command not found
+/nfs/farm/lsb_spool/1508584422.752955.shell: line 7: setenv: command not found
+/u/if/ksb/ase-qe/lib/python2.7/site-packages/espresso/__init__.py:1402: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if kp == 'gamma':
+tail: write error: Broken pipe
+3
+3
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+pw.x               0000000000DD6DC9  Unknown               Unknown  Unknown
+pw.x               0000000000DD569E  Unknown               Unknown  Unknown
+pw.x               0000000000D763D2  Unknown               Unknown  Unknown
+pw.x               0000000000D0AA33  Unknown               Unknown  Unknown
+pw.x               0000000000D11C09  Unknown               Unknown  Unknown
+libpthread.so.0    00002B1EDA8067E0  Unknown               Unknown  Unknown
+ld-linux-x86-64.s  00002B1ED5DE6E67  Unknown               Unknown  Unknown
+ld-linux-x86-64.s  00002B1ED5DE726A  Unknown               Unknown  Unknown
+ld-linux-x86-64.s  00002B1ED5DEB420  Unknown               Unknown  Unknown
+ld-linux-x86-64.s  00002B1ED5DF1C55  Unknown               Unknown  Unknown
+mca_sec_basic.so   00002B1EDDFA69D3  Unknown               Unknown  Unknown
+3
+tail: write error: Broken pipe

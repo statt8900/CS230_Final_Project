@@ -1,0 +1,50 @@
+&CONTROL
+  calculation='vc-relax',
+  prefix='calc',
+  pseudo_dir='/nfs/slac/g/suncatfs/sw/external/esp-psp/gbrv1.5pbe',
+  outdir='.',
+  tprnfor=.true.,
+  etot_conv_thr=1d0,
+  forc_conv_thr=0.00194469046668d0,
+/
+&SYSTEM
+  ibrav=0,
+  celldm(1)=1.8897261245650618d0,
+  nat=3,
+  ntyp=2,
+  ecutwfc=36.7493237909d0,
+  ecutrho=367.493237909d0,
+  nbnd=15,
+  occupations='smearing',
+  smearing='fd',
+  degauss=0.00734986475817d0,
+  input_dft='BEEF',
+/
+&ELECTRONS
+  diagonalization='david',
+  conv_thr=3.67493237909e-05,
+  mixing_beta=0.1d0,
+  mixing_ndim=10,
+  electron_maxstep=500,
+  conv_thr=3.67493237909e-05,
+/
+&IONS
+  ion_dynamics='bfgs',
+/
+&CELL
+  cell_dynamics='bfgs',
+  cell_factor=2.0d0,
+/
+CELL_PARAMETERS
+    3.009305710000000d0     0.000000000000000d0     0.000002518000000d0
+    0.000000000000000d0     3.527519046000000d0     0.000000000000000d0
+    0.000001571000000d0    -0.000000000000000d0     3.529690223000000d0
+ATOMIC_SPECIES
+Li1 6.94d0 Li.UPF
+H1 1.008d0 H.UPF
+ATOMIC_POSITIONS {crystal}
+Li1      0.984689740000000d0     0.000000000000000d0     0.999998682000000d0
+Li1      0.515132459000000d0     0.500000000000000d0     0.500002399000000d0
+H1       0.750191098000000d0     0.000000000000000d0     0.500007783000000d0
+K_POINTS automatic
+4 4 4 0 0 0
