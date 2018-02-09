@@ -1,0 +1,11 @@
+#BSUB -W 30:00
+#BSUB -q suncat
+#BSUB -J vcrelax
+#BSUB -o vcrelax-%J.out
+#BSUB -e vcrelax-%J.error
+
+unset LS_COLORS;source /nfs/slac/g/suncatfs/sw/espv20/setupenv;setenv PYTHONPATH /nfs/slac/g/suncatfs/${USER}/fireworks/fireworks_virtualenv/lib/python2.7/site-packages:/nfs/slac/g/suncatfs/fireworks_scripts/standard_tasks/:${PYTHONPATH};setenv PATH /afs/slac.stanford.edu/package/lsf/9.1.2/linux2.6-glibc2.3-x86_64/bin:${PATH}
+cd /nfs/slac/g/suncatfs/ksb/fireworks/jobs/vcrelax_2017_10_16_20_53_50
+python /nfs/slac/g/suncatfs/ksb/fireworks/fireworks_virtualenv/lib/python2.7/site-packages/fireworks/scripts/rlaunch_run.py -w /nfs/slac/g/suncatfs/${USER}/fireworks/my_fworker.yaml -l /nfs/slac/g/suncatfs/${USER}/fireworks/my_launchpad.yaml singleshot --fw_id 1951
+
+# CommonAdapter (SLURM) completed writing Template

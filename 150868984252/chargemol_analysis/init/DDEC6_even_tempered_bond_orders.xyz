@@ -1,0 +1,98 @@
+    3
+jmolscript: load "" {1 1 1} spacegroup "x,y,z" unitcell [{      3.391933     0.000000     0.000000 }, {      0.000000     3.391933     0.000000 }, {      0.000000     0.000000     3.391933 }]
+Li      0.000000      0.000000      0.000000       1.081435
+Li      1.695970      1.695970      1.695970       1.081397
+H       2.544000      0.000000      1.696000       1.178970
+    
+ Chargemol version 3.5 September 26, 2017.
+ See ddec.sourceforge.net for latest version.
+    
+    
+ The sum of bond orders (SBO) for each atom in the unit cell are listed above.
+ All bond orders greater than     0.001000 are printed below.
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      1 ( Li ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   1) translated image of atom number     1 ( Li ) with bond order =     0.0085    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     1 ( Li ) with bond order =     0.0085    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number     1 ( Li ) with bond order =     0.0280    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     1 ( Li ) with bond order =     0.0280    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number     1 ( Li ) with bond order =     0.0170    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     1 ( Li ) with bond order =     0.0170    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,  -1) translated image of atom number     2 ( Li ) with bond order =     0.0336    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,   0) translated image of atom number     2 ( Li ) with bond order =     0.0336    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,  -1) translated image of atom number     2 ( Li ) with bond order =     0.0336    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     2 ( Li ) with bond order =     0.0336    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,  -1) translated image of atom number     2 ( Li ) with bond order =     0.0695    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     2 ( Li ) with bond order =     0.0695    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     2 ( Li ) with bond order =     0.0695    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( Li ) with bond order =     0.0695    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,  -1) translated image of atom number     3 ( H  ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,   0) translated image of atom number     3 ( H  ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,  -1) translated image of atom number     3 ( H  ) with bond order =     0.2336    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     3 ( H  ) with bond order =     0.2336    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   1,  -1) translated image of atom number     3 ( H  ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   1,   0) translated image of atom number     3 ( H  ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     3 ( H  ) with bond order =     0.0346    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( H  ) with bond order =     0.0346    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        1.081435
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      2 ( Li ) in the reference unit cell.
+  
+ Bonded to the (  1,   1,   1) translated image of atom number     1 ( Li ) with bond order =     0.0336    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   0) translated image of atom number     1 ( Li ) with bond order =     0.0336    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   1) translated image of atom number     1 ( Li ) with bond order =     0.0336    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number     1 ( Li ) with bond order =     0.0336    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   1) translated image of atom number     1 ( Li ) with bond order =     0.0695    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number     1 ( Li ) with bond order =     0.0695    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number     1 ( Li ) with bond order =     0.0695    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( Li ) with bond order =     0.0695    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number     2 ( Li ) with bond order =     0.0280    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     2 ( Li ) with bond order =     0.0280    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number     2 ( Li ) with bond order =     0.0085    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     2 ( Li ) with bond order =     0.0085    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number     2 ( Li ) with bond order =     0.0170    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     2 ( Li ) with bond order =     0.0170    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     3 ( H  ) with bond order =     0.0346    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   1,   0) translated image of atom number     3 ( H  ) with bond order =     0.0346    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     3 ( H  ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( H  ) with bond order =     0.2336    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number     3 ( H  ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,  -1) translated image of atom number     3 ( H  ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number     3 ( H  ) with bond order =     0.2336    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   1) translated image of atom number     3 ( H  ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        1.081397
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      3 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  1,   1,   1) translated image of atom number     1 ( Li ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   0) translated image of atom number     1 ( Li ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   1) translated image of atom number     1 ( Li ) with bond order =     0.2336    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number     1 ( Li ) with bond order =     0.2336    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,  -1,   1) translated image of atom number     1 ( Li ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,  -1,   0) translated image of atom number     1 ( Li ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number     1 ( Li ) with bond order =     0.0346    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( Li ) with bond order =     0.0346    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number     2 ( Li ) with bond order =     0.0346    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,  -1,   0) translated image of atom number     2 ( Li ) with bond order =     0.0346    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number     2 ( Li ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( Li ) with bond order =     0.2336    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     2 ( Li ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   1) translated image of atom number     2 ( Li ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     2 ( Li ) with bond order =     0.2336    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,  -1) translated image of atom number     2 ( Li ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number     3 ( H  ) with bond order =     0.0091    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     3 ( H  ) with bond order =     0.0091    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number     3 ( H  ) with bond order =     0.0091    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     3 ( H  ) with bond order =     0.0091    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number     3 ( H  ) with bond order =     0.0113    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     3 ( H  ) with bond order =     0.0113    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        1.178970
+    
+ 2018/01/30  11:10:23

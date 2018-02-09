@@ -5,18 +5,42 @@ from torch.autograd import Function
 import torch.nn as nn
 import torch
 import pdb
+from CNN_input import CNNInputDataset
+from ast import literal_eval
 
 def test_forward():
-    from CS230_Final_Project.CNN_input import CNNInputDataset
     model = nn.Sequential(
         ChemConv(2,14),
         nn.ReLU(inplace = True),
         CollapseAndSum(16)
     )
 
-    storage_directories = ['/Users/michaeljstatt/Documents/CS230_Final_Project/data/storage_directories/150868984252']
+    # storage_directories = ['/Users/michaeljstatt/Documents/CS230_Final_Project/data/storage_directories/150868984252']
+    storage_directories = ['/Users/brohr/Documents/Stanford/Research/scripts/ML/CS230_Final_Project/150868984252']
     dataset = CNNInputDataset(storage_directories)
-    print model(dataset[0])
+    return model(dataset[0])
+
+def test_backward():
+    y_pred = test_forward()
+    y_actual = Variable(-0.35*torch.ones((1)))
+    loss_fn = nn.MSELoss()
+    loss = loss_fn(y_pred, y_actual)
+    print y_pred, y_actual, loss
+    loss.backward()
+
+
+def test_that_works():
+    inp = Variable(torch.randn((10)))
+    model = nn.Linear(10,1)
+    y_pred = model(inp)
+    y_actual = Variable(1.3*torch.ones((1)))
+    loss_fn = nn.MSELoss()
+    pdb.set_trace()
+    loss = loss_fn(y_pred, y_actual)
+    # print y_pred, y_actual, loss
+    # pdb.set_trace()
+    loss.backward()
+
 
 
 class MyReLUFunction(Function):
@@ -108,6 +132,7 @@ class CollapseAndSum(nn.Module):
             output[i] = self.linear(input[i]).data[0]
 
         output = torch.sum(output)
+        output = Variable(output*torch.ones((1)))
         return output
 
 
@@ -165,3 +190,7 @@ def make_convlayer_input_matrix(connectivity,node_feature_matrix):
             newatom.append(np.append(node_feature,[strength,dist])) # num_features + 2
         output.append(np.array(newatom))
     return output
+
+if __name__ == '__main__':
+    test_backward()
+    # test_that_works()
